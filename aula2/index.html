@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link href='style.css' rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <ul id='produtos'>
+
+    </ul>
+
+    <ul id='carrinho'>
+
+    </ul>
+    <template id='productTemplate'>
+        <li class='card'>
+            <h2>{{NOME}}</h2>
+            <img src='https://via.placeholder.com/200' />
+            <p>{{PRECO}}</p>
+            <button data-id='{{ID}}'>comprar</button>
+        </li>
+    </template>
+    <script src='loja.js' type="text/javascript"></script>
+</body>
+
+</html>
